@@ -16,5 +16,5 @@ Zmodyfikowany został plik detect.py wykorzystując klasy oraz metody biblioteki
 3. Zainstalować bibliotekę psycopg2:  ```pip install psycopg2```.
 4. Stworzyć bazę danych w systemie **PostgreSQL** (np. wykorzystując pgAdmin 4), a następnie uruchomić po kolei polecenia z pliku **Commands.sql**
 5. Skonfigurować plik **database.ini** pod utworzoną bazę danych.
-6. Uruchomić testowo komendę:  ```python detect.py --weights runs/train/traffic4/weights/best.pt --conf 0.5 --source detection/ --device 0```
-7. Wykonując polecenie **SELECT**, sprawdzić zliczenie obiektów w bazie.
+6. Uruchomić testowo komendę:  ```python detect.py --weights runs/train/traffic4/weights/best.pt --conf 0.5 --source detection/img1.jpg```
+7. Wykonując polecenie **SELECT**, sprawdzić zliczenie obiektów w bazie i porównać z wynikami w ```runs/detect/exp/img1.jpg```
