@@ -1,7 +1,7 @@
 # Projekt
 W ramach projektu bazując na sieci Yolov5 zostały wytrenowane od zera dwa modele yolov5m.pt wykorzystując dataset COCO.
 
-Pierwszy (main) trenowany był w oparciu o wszystkie kategorie, z czego szybko zrezygnowano ze względu na ilość kategorii.
+Pierwszy (main) trenowany był w oparciu o wszystkie kategorie, z czego szybko zrezygnowano ze względu na ich ilość.
 Drugi (traffic) uczył się na kategoriach: 'car', 'bus', 'truck', 'stop sign', 'motorcycle', 'traffic light'.
 Dało to lepsze rezultaty, choć na wykresach ucierpiała precyzja, prawdopodobnie ze względu występowania w tle innego typu obiektów.
 
